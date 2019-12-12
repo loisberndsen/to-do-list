@@ -41,6 +41,7 @@ export default class App extends React.Component {
         })
     };
 
+    // Function to open or close emoji picker
     toggleEmojiPicker = () => {
         this.setState({
             emojiPickerOpen: !this.state.emojiPickerOpen
